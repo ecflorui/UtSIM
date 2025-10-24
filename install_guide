@@ -1,0 +1,14 @@
+1. Enable i2c on the Raspberry Pi
+   sudo raspi-config
+Then go to Interface Options → I2C → Enable
+
+2. reboot to reset and update
+  sudo reboot
+
+3. Verify i2c is enabled and working:
+  sudo apt install -y i2c-tools
+  sudo i2cdetect -y 1
+
+4. Library Installation for the ADC and Sensor
+  sudo pip3 install adafruit-circuitpython-mprls
+  sudo pip3 install adafruit-blinka adafruit-circuitpython-ads1x15
