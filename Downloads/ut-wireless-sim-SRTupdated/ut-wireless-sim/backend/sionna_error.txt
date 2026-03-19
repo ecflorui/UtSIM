@@ -1,0 +1,21 @@
+Traceback (most recent call last):
+  File "C:\Users\singh\Downloads\ut-wireless-sim-SRTupdated\ut-wireless-sim\backend\test_lifespan.py", line 7, in <module>
+    init_scene(scene_path)
+  File "C:\Users\singh\Downloads\ut-wireless-sim-SRTupdated\ut-wireless-sim\backend\sionna_solver.py", line 65, in init_scene
+    _scene = rt.load_scene(scene_xml_path)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\singh\Downloads\ut-wireless-sim-SRTupdated\ut-wireless-sim\backend\venv\Lib\site-packages\sionna\rt\scene.py", line 1099, in load_scene
+    loaded = load_scene_from_string(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\singh\Downloads\ut-wireless-sim-SRTupdated\ut-wireless-sim\backend\venv\Lib\site-packages\sionna\rt\scene.py", line 1130, in load_scene_from_string
+    return Scene(mi_scene=mi_scene,
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\singh\Downloads\ut-wireless-sim-SRTupdated\ut-wireless-sim\backend\venv\Lib\site-packages\sionna\rt\scene.py", line 110, in __init__
+    self._load_scene_objects(remove_duplicate_vertices)
+  File "C:\Users\singh\Downloads\ut-wireless-sim-SRTupdated\ut-wireless-sim\backend\venv\Lib\site-packages\sionna\rt\scene.py", line 931, in _load_scene_objects
+    scene_object = sionna.rt.SceneObject(mi_mesh=s,
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\singh\Downloads\ut-wireless-sim-SRTupdated\ut-wireless-sim\backend\venv\Lib\site-packages\sionna\rt\scene_object.py", line 140, in __init__
+    self.radio_material.add_object()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'BSDF' object has no attribute 'add_object'
