@@ -1,0 +1,16 @@
+studenttest.SomePasses.testEasy : PASS
+studenttest.SomePasses.testSimple : FAIL
+studenttest.SomePasses.testTrue : PASS
+studenttest.EasyPasses.testEasy : PASS
+studenttest.EasyPasses.testSimple : PASS
+studenttest.EasyPasses.testTrue : PASS
+==========
+FAILURES:
+studenttest.SomePasses.testSimple:
+unittest.assertions.ComparisonException
+    at unittest.assertions.Assert.failNotEquals(Assert.java:126)
+    at unittest.assertions.Assert.assertEquals(Assert.java:79)
+    at unittest.assertions.Assert.assertEquals(Assert.java:84)
+    at studenttest.SomePasses.testSimple(SomePasses.java:18)
+==========
+Tests run: 6, Failures: 1

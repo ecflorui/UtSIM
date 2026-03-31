@@ -1,0 +1,7 @@
+studenttest.EasyPasses.testEasy : PASS
+studenttest.EasyPasses.testSimple : PASS
+studenttest.EasyPasses.testTrue : PASS
+==========
+FAILURES:
+==========
+Tests run: 3, Failures: 0

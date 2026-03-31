@@ -1,0 +1,12 @@
+studenttest.FilterTest.testA : PASS
+studenttest.FilterTest.testD : FAIL
+==========
+FAILURES:
+studenttest.FilterTest.testD:
+unittest.assertions.AssertionException
+    at unittest.assertions.Assert.fail(Assert.java:119)
+    at unittest.assertions.Assert.assertTrue(Assert.java:13)
+    at unittest.assertions.Assert.assertTrue(Assert.java:18)
+    at studenttest.FilterTest.testD(FilterTest.java:24)
+==========
+Tests run: 2, Failures: 1

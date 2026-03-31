@@ -1,0 +1,30 @@
+studenttest.mixRunner.testAgo : FAIL
+studenttest.mixRunner.testBgo : PASS
+studenttest.mixRunner.testC : PASS
+studenttest.mixOrder.test1st : PASS
+studenttest.mixOrder.test2nd : FAIL
+studenttest.mixOrder.testLAST : FAIL
+studenttest.mixFilter.takethis : PASS
+studenttest.mixFilter.andthis : PASS
+==========
+FAILURES:
+studenttest.mixRunner.testAgo:
+unittest.assertions.ComparisonException
+    at unittest.assertions.Assert.failNotEquals(Assert.java:126)
+    at unittest.assertions.Assert.assertEquals(Assert.java:79)
+    at unittest.assertions.Assert.assertEquals(Assert.java:84)
+    at studenttest.mixRunner.testAgo(mixRunner.java:14)
+studenttest.mixOrder.test2nd:
+unittest.assertions.AssertionException
+    at unittest.assertions.Assert.fail(Assert.java:119)
+    at unittest.assertions.Assert.assertTrue(Assert.java:13)
+    at unittest.assertions.Assert.assertTrue(Assert.java:18)
+    at studenttest.mixOrder.test2nd(mixOrder.java:20)
+studenttest.mixOrder.testLAST:
+unittest.assertions.ComparisonException
+    at unittest.assertions.Assert.failNotEquals(Assert.java:126)
+    at unittest.assertions.Assert.assertEquals(Assert.java:79)
+    at unittest.assertions.Assert.assertEquals(Assert.java:84)
+    at studenttest.mixOrder.testLAST(mixOrder.java:14)
+==========
+Tests run: 8, Failures: 3

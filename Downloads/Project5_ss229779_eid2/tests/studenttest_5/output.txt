@@ -1,0 +1,19 @@
+studenttest.basicOrdered.go1st : FAIL
+studenttest.basicOrdered.go2nd : PASS
+studenttest.basicOrdered.go3rd : FAIL
+==========
+FAILURES:
+studenttest.basicOrdered.go1st:
+unittest.assertions.AssertionException
+    at unittest.assertions.Assert.fail(Assert.java:119)
+    at unittest.assertions.Assert.assertTrue(Assert.java:13)
+    at unittest.assertions.Assert.assertTrue(Assert.java:18)
+    at studenttest.basicOrdered.go1st(basicOrdered.java:26)
+studenttest.basicOrdered.go3rd:
+unittest.assertions.ComparisonException
+    at unittest.assertions.Assert.failNotEquals(Assert.java:126)
+    at unittest.assertions.Assert.assertEquals(Assert.java:79)
+    at unittest.assertions.Assert.assertEquals(Assert.java:84)
+    at studenttest.basicOrdered.go3rd(basicOrdered.java:20)
+==========
+Tests run: 3, Failures: 2

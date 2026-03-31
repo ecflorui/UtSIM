@@ -1,0 +1,20 @@
+studenttest.alphaOrdered.Ago : FAIL
+studenttest.alphaOrdered.Mgo : PASS
+studenttest.alphaOrdered.Zgo : PASS
+studenttest.alphaOrdered.goLast : FAIL
+==========
+FAILURES:
+studenttest.alphaOrdered.Ago:
+unittest.assertions.AssertionException
+    at unittest.assertions.Assert.fail(Assert.java:119)
+    at unittest.assertions.Assert.assertTrue(Assert.java:13)
+    at unittest.assertions.Assert.assertTrue(Assert.java:18)
+    at studenttest.alphaOrdered.Ago(alphaOrdered.java:26)
+studenttest.alphaOrdered.goLast:
+unittest.assertions.ComparisonException
+    at unittest.assertions.Assert.failNotEquals(Assert.java:126)
+    at unittest.assertions.Assert.assertEquals(Assert.java:79)
+    at unittest.assertions.Assert.assertEquals(Assert.java:84)
+    at studenttest.alphaOrdered.goLast(alphaOrdered.java:20)
+==========
+Tests run: 4, Failures: 2

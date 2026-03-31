@@ -1,0 +1,19 @@
+studenttest.maxOrder.go1st : FAIL
+studenttest.maxOrder.noRankGivenA : PASS
+studenttest.maxOrder.noRankGivenB : FAIL
+==========
+FAILURES:
+studenttest.maxOrder.go1st:
+unittest.assertions.ComparisonException
+    at unittest.assertions.Assert.failNotEquals(Assert.java:126)
+    at unittest.assertions.Assert.assertEquals(Assert.java:79)
+    at unittest.assertions.Assert.assertEquals(Assert.java:84)
+    at studenttest.maxOrder.go1st(maxOrder.java:19)
+studenttest.maxOrder.noRankGivenB:
+unittest.assertions.ComparisonException
+    at unittest.assertions.Assert.failNotEquals(Assert.java:126)
+    at unittest.assertions.Assert.assertEquals(Assert.java:79)
+    at unittest.assertions.Assert.assertEquals(Assert.java:84)
+    at studenttest.maxOrder.noRankGivenB(maxOrder.java:24)
+==========
+Tests run: 3, Failures: 2

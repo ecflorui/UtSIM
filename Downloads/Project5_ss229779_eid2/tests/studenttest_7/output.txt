@@ -1,0 +1,20 @@
+studenttest.basicRunner.Mgo : FAIL
+studenttest.basicRunner.Zgo : PASS
+studenttest.orderRunner.ZgoOrd : PASS
+studenttest.orderRunner.MgoOrd : FAIL
+==========
+FAILURES:
+studenttest.basicRunner.Mgo:
+unittest.assertions.ComparisonException
+    at unittest.assertions.Assert.failNotEquals(Assert.java:126)
+    at unittest.assertions.Assert.assertEquals(Assert.java:79)
+    at unittest.assertions.Assert.assertEquals(Assert.java:84)
+    at studenttest.basicRunner.Mgo(basicRunner.java:14)
+studenttest.orderRunner.MgoOrd:
+unittest.assertions.ComparisonException
+    at unittest.assertions.Assert.failNotEquals(Assert.java:126)
+    at unittest.assertions.Assert.assertEquals(Assert.java:79)
+    at unittest.assertions.Assert.assertEquals(Assert.java:84)
+    at studenttest.orderRunner.MgoOrd(orderRunner.java:19)
+==========
+Tests run: 4, Failures: 2
